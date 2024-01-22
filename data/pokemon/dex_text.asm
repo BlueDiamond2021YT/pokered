@@ -1507,3 +1507,13 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
+
+_Missingno.DexEntry::
+	text "Glitch Pokemon"
+	next "How did you even get this?"
+	next "You filthy hacker..."
+
+	page "Has corrupted"
+	next "many peoples"
+	next "hall of fame."
+	dex
