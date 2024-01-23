@@ -1508,7 +1508,7 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
-_Missingno.DexEntry::
+_MissingNoDexEntry::
 	text "Glitch Pokemon"
 	next "How did you even get this?"
 	next "You filthy hacker..."

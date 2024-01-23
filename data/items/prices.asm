@@ -97,5 +97,5 @@ ItemPrices::
 	bcd3 0     ; FLOOR_9F
 	bcd3 0     ; FLOOR_10F
 	bcd3 0     ; FLOOR_11F
-	bcd3 0     ; FLOOR_B4F
+	bcd3 1     ; FLOOR_B4F
 	assert_table_length NUM_ITEMS + NUM_FLOORS
