@@ -33,6 +33,7 @@ AddItemToInventory_::
 	ld a, [wcf91] ; a = ID of item being added
 	cp b ; does the current item in the table match the item being added?
 	jp z, .increaseItemQuantity ; if so, increase the item's quantity
+.checkIfEndOfInventory
 	inc hl
 	ld a, [hl]
 	cp $ff ; is it the end of the table?
